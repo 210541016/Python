@@ -1,0 +1,10 @@
+--oyunun amacı 3 ün katı olanlara Fizz 5 in katı olanlara Buzz İkisinde katı ise FizzBuzz yazılacaktır.
+for number in range(1,101):
+    if number % 15 == 0 :
+        print("FizzBuzz")
+    elif number % 3 == 0:
+        print("Fizz")
+    elif number % 5 == 0:
+        print("Buzz")
+    else:
+        print(number)
